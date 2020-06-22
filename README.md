@@ -28,4 +28,20 @@ Cypress is next gen web testing tool that helps developers and QA's to E2E test 
  - **Recording of execution**
  - **Spies Stubs Clocks and Ticks:** All these familiar terms from unit tests are supported in cypress to [control](https://docs.cypress.io/guides/guides/stubs-spies-and-clocks.html#Capabilities)
  
+ ## Cypress-workflow
  
+ -**Setup:** Cypress is avilable as an node package and can be installed using any package manager or by downloading installer from official website.
+ 
+     npm install cypress
+              or
+     npm install cypress --save-dev
+     
+ -**create tests** Tools come with very simple api to write tests commands a very easy to read and understand. cypress utilizes [mocha](https://mochajs.org/) and [chai](https://www.chaijs.com/) to build powerful and superfast test cases.
+ 
+ -**run tests** Cypress runner or npm commands can be used to run tests on chrome,firefox browsers and as cypress unlike selenium run inside browser tests run in electric speed and gives you full control over tests. 
+     <video class="styled__StyledVideo-uf8w4y-2 eaiSAE" poster="/static/debugging-54a2cc93b3d47d9a95c5926200db5462.jpg" playsinline="" autoplay="" loop="" aria-label="Debug Cypress Tests"><source src="/static/debugging-5268ab41c01955e244d85d27af5b8a1b.webm" type="video/webm"><source src="/static/debugging-444bcbb4ee685cd89783d8b1d8bd264b.mp4" type="video/mp4"></video>
+     
+ -**debug tests for failures:** cypress runner comes with different logs that can be read and utilized for debugging purpose and cypress also supports conditional debugging.
+ 
+     
+     
